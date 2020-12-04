@@ -33,6 +33,7 @@
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "indent": ["error", 4],
         "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
         "no-use-before-define": "warn",
         "import/extensions": [
             "error",
