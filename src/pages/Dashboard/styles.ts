@@ -72,15 +72,17 @@ export const Repositories = styled.div`
         height: 80px;
         width: 80px;
         border-radius: 50%;
+        object-fit: cover;
     }
 
     div {
+        flex: 1;
         margin-left: 24px;
 
         strong {
             font-size: 24px;
             color: #3d3d3d;
-            margin-bottom: 4px;
+            margin-bottom: 8px;
         }
 
         p {
