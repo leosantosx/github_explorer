@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
     }
     body{
         background: #f0f0f5 url(${githubBackground}) no-repeat 70% top;
+        margin: 20px;
     }
 
     body, input, button {

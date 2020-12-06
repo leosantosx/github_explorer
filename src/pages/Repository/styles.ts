@@ -75,3 +75,47 @@ export const RepositoryInfo = styled.section`
         }
     }
 `
+
+export const Issues = styled.div`
+    margin-top: 3em;
+
+    a {
+        border-radius: 5px;
+        background-color: #fff;
+        display: block;
+        width: 100%;
+        padding: 24px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        transition: transform 200ms;
+
+        & + a {
+            margin-top: 16px;
+        }
+
+        &:hover {
+            transform: translateX(10px);
+        }
+    }
+
+    div {
+        flex: 1;
+
+        strong {
+            font-size: 24px;
+            color: #3d3d3d;
+            margin-bottom: 8px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #a8a8b3;
+        }
+    }
+
+    svg {
+        margin-left: auto;
+        color: #cbcbd6;
+    }
+`
